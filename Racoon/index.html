@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="./css/style.css">
+   <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8">
+    <title>Racoon Nblog</title>
+</head>
+<body>
+   <header class="logo">
+        <h1 class="logo__head">
+             <svg viewBox="96 0 32 32" class="racoon">
+                <use xlink:href="icons/sprite.svg#icon-racoon-negative"></use>
+             </svg>
+             racoo nblog
+        </h1>
+    </header>
+    <nav class="navigation">
+           <ul class="menu">
+                <li class="menu__references">
+                    <a href="#" class="link menu__item--link  menu__item--js">javascript</a>
+                </li>
+                <li class="menu__references">
+                    <a href="#" class="link menu__item--link menu__item--css">css</a>
+                    </li>
+                <li class="menu__references">
+                    <a href="#" class="link menu__item--link  menu__item--latest">latest</a>
+                    </li>
+                <li class="menu__references">
+                    <a href="#" class="link menu__item--link menu__item--html">html</a>
+                </li>
+                <li class="menu__references">
+                    <a href="#" class="link menu__item--link menu__item--design">design</a>
+                </li>
+                <li class="menu__references--ab">
+                    
+                    <input type="checkbox" id="check">
+                    <label for="check" onclick></label>
+                    <a href="#" class="menu__references--about">?</a>
+                    <ul class="menu__drop" role="off-menu">
+                        <li class="menu__drop--about">
+                            <p class="about--text">about</p>
+                        </li>
+                        <li class="menu__drop--text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cumque eligendi voluptas ex fuga nihil expedita ullam doloribus repellendus harum placeat sit nostrum, quam necessitatibus veritatis ad tenetur dolorem recusandae soluta. Corrupti quam sit nesciunt consequuntur, itaque et. Culpa harum cumque ratione iste reprehenderit minus accusantium praesentium non, quaerat. Dolorum reprehenderit doloremque ipsam illum iure, ullam, est vero facilis, ut dolorem obcaecati at minima cum architecto tenetur. Modi, voluptate, magni!?
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__references--so">
+                    <a href="#" class="menu__references--some">!</a>
+                </li>
+            </ul>
+            
+<!-- Пункты меню для мобильной версии -->
+          
+               <ul class="menu--mobile">
+                   <li class="menu__item--mobile">
+                       <a class="menu__link" href="#">
+                           <svg viewBox="48 0 32 32" class="icon__list--tag">
+                                <use xlink:href="icons/sprite.svg#icon-tag"></use>
+                           </svg>
+                      </a>
+                   </li>
+                   <li class="menu__item--mobile">
+                       <a class="menu__link" href="#">
+                           <svg viewBox="48 0 32 32" class="icon__list--menu">
+                                <use xlink:href="icons/sprite.svg#icon-menu"></use>
+                           </svg>
+                      </a>
+                   </li>
+                   <li class="menu__item--mobile">
+                       <a class="menu__link" href="#">
+                           <svg viewBox="48 0 32 32" class="icon__list--menu">
+                                <use xlink:href="icons/sprite.svg#icon-menu"></use>
+                           </svg>
+                      </a>
+                   </li>    
+                   <li class="menu__item--mobile list">
+                       <a class="menu__link" href="#">
+                      <svg viewBox="48 0 32 32" class="icon__list--menu">
+                        <use xlink:href="icons/sprite.svg#icon-menu"></use>
+                      </svg>
+                    </a>
+                       <ul class="menu__drop">
+                           <li class="menu__link">1</li>
+                           <li class="menu__link">2</li>
+                           <li class="menu__link">3</li>
+                           <li class="menu__link">4</li>
+                           <li class="menu__link">5</li>
+                       </ul>
+                   </li>
+               </ul>
+                         
+<!-- Пункты меню для мобильной версии -->
+        </nav>
+        
+<!-- Верхние теги -->
+       <div class="tegs__tablet">
+        <ul class="tegs__list--tablet">
+            <li class="item--tablet">
+               <a href="#" class="item__link--tablet">raccoon</a>  
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">raccoo</a>
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">raccoon</a>
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">dog</a>
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">cat</a>
+            </li>
+            <li class="item--tablet">
+                   <a href="#" class="item__link--tablet">developer</a>
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">raccoon</a>
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">raccoon</a>
+            </li>
+            <li class="item--tablet">
+              <a href="#" class="item__link--tablet">raccoon</a>
+            </li>
+             <li class="item--tablet">
+              <a href="#" class="item__link--tablet">dog</a>
+            </li>
+             <li class="item--tablet">
+              <a href="#" class="item__link--tablet">cat</a>
+            </li>
+             <li class="item--tablet">
+              <a href="#" class="item__link--tablet">developer</a>
+            </li>
+        </ul>
+    </div>  
+        
+        
+<!-- Верхние теги -->        
+    <div class="container">
+        <main class="left">
+            <div class="articles">
+                <img src="./images/flowers.jpg" alt="Flowers" class="pictures">
+                <h2 class="name-blog"><a href="" class="name__blog--item">blogotitle and blogopost about blogoflowers</a></h2>
+                <hr class="line">
+                <footer class="block-inform">
+                    <div class="info-name">
+                         <time datetime="2014-06-01T22:58" class="time">22:58 Jan 01, 2014
+                            <svg class="social__item--view clock" viewBox="432 0 32 32">
+                               <use xlink:href="icons/sprite.svg#icon-clock">
+                               </use>
+                            </svg>
+                         </time>                    
+                         <address class="author">
+                             <a href="#" class="author__info">by E.hyperraccoon</a>
+                               <svg class="social__item--view footstep" viewBox="528 0 32 32">
+                                 <use xlink:href="icons/sprite.svg#icon-footstep">
+                                 </use>
+                               </svg>
+                        </address>
+                    </div>
+                     <ul class="icons icon--tablet icon--mobile">
+                        <li class="icons__social">
+                           <a href="#" class="icons__item icons--facedook">16<svg viewBox="480 0 32 32" class="icons__social--view facebook">
+                                <use xlink:href="icons/sprite.svg#icon-facebook"></use>
+                            </svg>
+                           </a>    
+                        </li>
+                        <li class="icons__social">
+                            <a href="#" class="icons__item icons--gplus">7<svg viewBox="0 0 32 32" class="icons__social--view gplus">
+                                <use xlink:href="icons/sprite.svg#icon-gplus"></use>
+                             </svg>
+                            </a> 
+                        </li>
+                        <li class="icons__social">
+                            <a href="#" class="icons__item icons--twitter">15<svg viewBox="240 0 32 32" class="icons__social--view twitter">
+                                <use xlink:href="icons/sprite.svg#icon-twitter"></use>
+                             </svg>
+                            </a> 
+                        </li>
+                        <li class="icons__social">
+                            <a href="#" class="icons__item icons--vk">16<svg viewBox="288 0 32 32" class="icons__social--view vk">
+                                <use xlink:href="icons/sprite.svg#icon-vk"></use>
+                             </svg>
+                            </a>     
+                        </li>
+                        <li class="icons__social">
+                            <a href="#" class="icons__item icons--yaru">1<svg viewBox="336 0 32 32" class="icons__social--view yaru">
+                                <use xlink:href="icons/sprite.svg#icon-yaru"></use>
+                             </svg>
+                            </a> 
+                        </li>
+                    </ul>
+                </footer>
+                <hr class="line">
+                <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cumque eligendi voluptas ex fuga nihil expedita ullam doloribus repellendus harum placeat sit nostrum, quam necessitatibus veritatis ad tenetur dolorem recusandae soluta. Corrupti quam sit nesciunt consequuntur, itaque et. Culpa harum cumque ratione iste reprehenderit minus accusantium praesentium non, quaerat. Dolorum reprehenderit doloremque ipsam illum iure, ullam, est vero facilis, ut dolorem obcaecati at minima cum architecto tenetur. Modi, voluptate, magni!</p> 
+            </div>
+            <div class="articles">
+                <img src="./images/color.jpg" alt="Colors" class="pictures">
+                <h2 class="name-blog"><a href="" class="name__blog--item">blogotitle about colorful</a></h2>
+                <hr class="line">
+                 <footer class="block-inform">
+                    <div class="info-name">
+                         <time datetime="2014-06-01T22:58" class="time">22:58 Jan 01, 2014
+                            <svg class="social__item--view clock" viewBox="432 0 32 32">
+                               <use xlink:href="icons/sprite.svg#icon-clock">
+                               </use>
+                            </svg>
+                         </time>                    
+                         <address class="author">
+                             <a href="#" class="author__info">by E.hyperraccoon</a>
+                               <svg class="social__item--view footstep" viewBox="528 0 32 32">
+                                 <use xlink:href="icons/sprite.svg#icon-footstep">
+                                 </use>
+                               </svg>
+                        </address>
+                     </div>
+                     <ul class="icons icon--tablet icon--mobile">
+                         <li class="icons__social">
+                             <a href="#" class="icons__item icons--facedook">16<svg viewBox="480 0 32 32" class="icons__social--view facebook">
+                                 <use xlink:href="icons/sprite.svg#icon-facebook"></use>
+                             </svg>
+                             </a>
+                         </li>
+                         <li class="icons__social">
+                             <a href="#" class="icons__item icons--gplus">7<svg viewBox="0 0 32 32" class="icons__social--view gplus">
+                                 <use xlink:href="icons/sprite.svg#icon-gplus"></use>
+                             </svg>
+                             </a>
+                         </li>
+                         <li class="icons__social">
+                             <a href="#" class="icons__item icons--twitter">15<svg viewBox="240 0 32 32" class="icons__social--view twitter">
+                                 <use xlink:href="icons/sprite.svg#icon-twitter"></use>
+                             </svg>
+                             </a>
+                         </li>
+                         <li class="icons__social">
+                             <a href="#" class="icons__item icons--vk">16<svg viewBox="288 0 32 32" class="icons__social--view vk">
+                                 <use xlink:href="icons/sprite.svg#icon-vk"></use>
+                             </svg>
+                             </a>
+                         </li>
+                         <li class="icons__social">
+                             <a href="#" class="icons__item icons--yaru">1<svg viewBox="336 0 32 32" class="icons__social--view yaru">
+                                 <use xlink:href="icons/sprite.svg#icon-yaru"></use>
+                             </svg>
+                             </a>
+                         </li>
+                     </ul>
+                </footer>
+                <hr class="line">
+                <p class="text-info">Eligendi officia est adipisci iure architecto expedita deserunt, provident, cupiditate sequi nostrum. Recusandae minima mollitia nesciunt quasi, vitae quia, vero necessitatibus unde, ducimus sed ex iure. Magni perspiciatis tenetur doloremque animi molestiae, quaerat provident autem nostrum modi aspernatur, excepturi quos nulla quisquam libero atque fuga. Debitis laborum, suscipit, asperiores labore dolores ab beatae facere assumenda delectus atque expedita. Quasi, sequi! Deserunt delectus, tenetur consectetur ad iure in culpa repellat facilis?</p>
+            </div>
+             <img src="./images/foot_img.png" alt="" class="footer-image"> 
+            
+        </main>
+        <aside class="right">
+            <div class="blogs">
+               <h2 class="blogs__first"><a href="#" class="sign">?</a>about</h2>
+                <p class="first_article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quasi, ad harum reprehenderit. Nobis, obcaecati, nihil. Assumenda eligendi, rem dolor consequatur, quis similique, enim, perspiciatis mollitia quibusdam praesentium neque quae omnis fuga vel eaque eveniet a ex dolores. Rem quia, praesentium assumenda accusamus dolorem magnam architecto laboriosam explicabo voluptatem nesciunt similique ut libero, illum delectus veniam eius ullam perferendis quidem maxime fugiat nemo? Porro impedit deserunt explicabo, consectetur provident iusto.</p>
+            </div>
+            <div class="blogs">
+               <h2 class="blogs__second"><a href="#" class="sign">!</a>some information</h2>
+                <p class="second_article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, iure labore similique. Expedita, natus. Architecto provident suscipit numquam quisquam, culpa cupiditate! Ad ipsum, ut rem ipsa beatae incidunt, placeat, odio dolorum nisi error ipsam fugit saepe voluptates. Nostrum sint repudiandae dicta velit, accusamus possimus sunt officia commodi? Dolor tenetur dicta animi ut, praesentium minus, nihil magni aut quaerat autem aperiam! Totam, laboriosam vitae tempore nostrum esse suscipit eligendi atque hic.</p>
+            </div>
+            <ul class="tegs">
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">racoon</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">racoon</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">racoon</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">dog</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">cat</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">developer</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">racoon</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">racoon</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">racoon</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">dog</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">cat</a>
+                </li>
+                <li class="tegs__list">
+                    <a href="#" class="teg__references">developer</a>
+                </li>
+            </ul>
+        </aside>     
+    </div>
+</body>
+</html>

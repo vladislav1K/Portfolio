@@ -1,0 +1,222 @@
+body {
+	background: #efe5d0;
+	margin: 0px 80px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+
+table {
+	margin: 0px 0px 100px 20px;
+  border: thin solid #954b4b;
+  border-collapse: collapse;
+  color: #954b4b;
+}
+
+td {
+  border: thin dotted gray;
+  padding: 5px;
+}
+
+tbody {
+	color: black;
+}
+
+thead {
+	background: #EAD9D2;
+}
+
+.tabs {
+	position: relative;
+	margin: 0px;
+	clear: both;
+
+}
+
+.tab label {
+  display: inline-block;
+	background: #eee;
+	padding: 13px ;
+	border: 1px solid #ccc;
+	position: relative;
+	left: -65px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+  font-size: large;
+}
+
+.tab [type=radio] {
+	display: none;
+}
+
+table {
+	position: absolute;
+  top: 0px;
+  left: 0px;
+  background: white;
+  right: 0px;
+  bottom: 0px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+table {
+	display: none;
+  z-index: 1;
+  width: 820px;
+}
+
+.z0 {
+  display: none;
+}
+
+/*два чекбокса над самим табло: прилёт и вылет, 
+по нажатию показываются только соответствующие рейсы*/
+[type=radio]:checked ~ label {
+  background: 4E607E;
+  border-right: 1px solid #EAD9D2;
+  z-index: 1;
+}
+
+[type=radio]:checked ~ label ~ table {
+	display: table;
+}
+
+/*нечётные строки табло темнее чётных*/
+tr:nth-child(even) td span:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  background: #eee;
+}
+
+/*по наведению курсора на определённое место в табло 
+контрастным цветом выделяются соответствующие строка и столбец*/
+td {
+  position: relative;
+}
+
+body tr td:hover {
+  cursor: pointer;
+}
+
+body tr td:hover::before {
+
+	background-color: #ffa; 
+  content: '';  
+  height: 100%;
+  left: -5000px;
+  position: absolute;  
+  top: 0;
+  width: 10000px;   
+  z-index: -1;   
+}
+
+body tr td:hover::after{
+  background-color: #ffa;
+  content: '';  
+  height: 10000px;
+  left: 0;
+  position: absolute;  
+  top: -5000px;
+  width: 100%;   
+  z-index: -1;   
+}
+
+/*количество отображаемых данных по высоте больше ширины экрана, при прокрутке 
+заголовок таблицы приклеивается к верхней части видимой области окна браузера*/
+.sortieClone {
+  display: table;
+  position: fixed;
+  left: 80px;
+  width: 820px;
+  
+}
+
+.sortieClone tbody {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+}
+
+/*при изменении ширины экрана браузера в табло автоматически скрываются и/или 
+сокращаются значения наименее важных столбцов (например, при ширине 1000 пикселей 
+вы показываете всю таблицу, при ширине 900 пикселей — убираете название 
+авиакомпании, оставляя только логотип*/
+@media screen and (max-width: 1000px), handheld and (max-width: 1000px) {
+  table {
+    width: 800px;
+    font-size: 97%;
+  }
+
+  .sortieClone {
+    width: 800px;
+    font-size: 97%;
+  }
+}
+
+@media screen and (max-width: 900px), handheld and (max-width: 900px) {
+  .colX {
+    display: none;
+  }
+
+    table {
+    width: 700px;
+    font-size: 90%;
+  }
+
+  .sortieClone {
+    width: 700px;
+    font-size: 90%;
+  }
+}
+
+/*800 пикселей — сокращаете название воздушного судна (Boeing 737-800 -> B737) и так далее)*/
+@media screen and (max-width: 800px), handheld and (max-width: 800px) {
+  .z0 {
+    display: inline;
+  }
+
+  .z1 {
+    display: none;
+  }
+
+    table {
+    width: 650px;
+  }
+ 
+  .sortieClone col:nth-child(2) {
+    width: 90px;
+   } 
+
+  .sortieClone {
+    width: 650px;
+  }
+}
+
+.flight-info {
+  width: 650px;
+  height: 300px;
+  background-color: white;
+  padding: 5px 20px;
+  margin:  50px 20px;
+  position: absolute;
+  //z-index: 1;
+  display: none;
+}
+
+.flight-info div {
+  padding: 8px;
+}
+
+td:active .flight-info {
+    display: block;
+}
+
+.flight-info:hover {
+    display: block;
+}

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Онлайн-табло аэропорта</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="allContent">
+		<div class="flight-info">
+			<div>Номер рейса: UN 500</div>
+			<div class="colX">Авиа компания: Трансаэро</div>
+			<div>Лого</div>
+			<div>Тип ВС:<span class="z1"> Boeing 737-800</span><span class="z0"> B737</span></div>
+			<div>Аэропорт назначения: Фьюмичино (Рим)</div>
+			<div>Плановое время: 14.07.2015 22:38</div>
+			<div>Статус: Посадка закончена</div>
+			<div>Примечание</div>
+		</div>
+		<div class="tabs">
+			<div class="tab">
+				<input type="radio" id="sortie" name="tab1" checked>
+				<label for="sortie">Вылет</label>
+
+				<table class="sortie" >
+					<colgroup>
+						<col width="70px"></col>
+						<col width="100px"></col>
+						<col width="70px"></col>
+						<col width="100px"></col>
+						<col span="4" width="120px"></col>
+					</colgroup>
+					<thead>
+						<tr>
+							<td>
+								<div>Номер рейса</div>
+							</td>
+							<td  class="colX">
+								<div>Авиа компания</div>
+							</td>
+							<td>
+								<div>Лого</div>
+							</td>
+							<td>
+								<div>Тип ВС</div>
+							</td>
+							<td>
+								<div>Аэропорт назначения</div>
+							</td>
+							<td>
+								<div>Плановое время</div>
+							</td>
+							<td>
+								<div>Статус</div>
+							</td>
+							<td>
+								<div>Примечание</div>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="b1">
+							<td><span>UN 500</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 600</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 700</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 800</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 900</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1000</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1100</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 500</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 600</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 700</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 800</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 900</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1000</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1100</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 500</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 600</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 700</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 800</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 900</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1000</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1100</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 500</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 600</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 700</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 800</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 900</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1000</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1100</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 500</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 600</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 700</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 800</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 900</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1000</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1100</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 500</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 600</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 700</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 800</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 900</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1000</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UN 1100</span></td>
+							<td class="colX"><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span class="z1">Boeing 737-800</span><span class="z0">B737</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+ 
+				<table class="sortieClone" >
+					<colgroup>
+						<col width="70px"></col>
+						<col width="100px"></col>
+						<col width="70px"></col>
+						<col width="100px"></col>
+						<col span="4" width="120px"></col>
+					</colgroup>
+					<thead>
+						<tr>
+							<td>
+								<div>Номер рейса</div>
+							</td>
+							<td class="colX">
+								<div>Авиа компания</div>
+							</td>
+							<td>
+								<div>Лого</div>
+							</td>
+							<td>
+								<div>Тип ВС</div>
+							</td>
+							<td>
+								<div>Аэропорт назначения</div>
+							</td>
+							<td>
+								<div>Плановое время</div>
+							</td>
+							<td>
+								<div>Статус</div>
+							</td>
+							<td>
+								<div>Примечание</div>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><span>UN 500</span></td>
+							<td><span>Трансаэро</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Фьюмичино (Рим)</span></td>
+							<td><span>14.07.2015 22:38</span></td>
+							<td><span>Посадка закончена</span></td>
+							<td><span></span></td>
+						</tr>
+					</tbody>
+				</table>
+
+
+			<div class="tab">
+				<input type="radio" id="arrival" name="tab1">
+				<label for="arrival">Прилёт</label>
+
+				<table class="arrival">
+					<colgroup>
+						<col width="84px"></col>
+						<col width="110px"></col>
+						<col width="40px"></col>
+						<col width="155px"></col>
+						<col span="4" width="205px"></col>
+					</colgroup>
+					<thead>
+						<tr>
+							<td>
+								<div class="col">Номер рейса</div>
+							</td>
+							<td>
+								<div class="col">Авиа компания</div>
+							</td>
+							<td>
+								<div class="col">Лого</div>
+							</td>
+							<td>
+								<div class="col">Тип ВС</div>
+							</td>
+							<td>
+								<div class="col">Аэропорт назначения</div>
+							</td>
+							<td>
+								<div class="col">Плановое время</div>
+							</td>
+							<td>
+								<div class="col">Статус</div>
+							</td>
+							<td>
+								<div class="col">Примечание</div>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+						<tr>
+							<td><span>UT 898</span></td>
+							<td><span>ЮТейр</span></td>
+							<td><span>Лого</span></td>
+							<td><span>Boeing 737-800</span></td>
+							<td><span>Ататюрк (Тель-Авив)</span></td>
+							<td><span>14.07.2015 21:19</span></td>
+							<td><span>Приземлился </span></td>
+							<td><span></span></td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
